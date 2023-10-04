@@ -1,0 +1,18 @@
+{
+    "product-c": {
+        "name": "Plastic White Open Container",
+        "price": 650,
+        "material": "PP Plastic",
+        "brand": "Beige Bucket",
+        "description": "Introducing our White Plastic Open Basket with Handle. This versatile and sturdy basket is perfect for keeping your space tidy and organized. Its sleek design adds a touch of class to any room. Get organized in style!",
+        "images": [
+            "images/containers.png",
+            "images/product-k.png",
+            "images/container-sizes.png"
+        ],
+        "sizes": ["S", "M", "L", "XL"],
+        "prices": {"XL": 650, "L": 580, "M": 480, "S": 430},
+        "stock": 100,
+        "return_policy": "Return/Replacement within 3 days from delivery."
+    }
+}

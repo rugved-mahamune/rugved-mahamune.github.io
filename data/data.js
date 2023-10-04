@@ -1,0 +1,1 @@
+import './products.json' assert { type: 'json' };
