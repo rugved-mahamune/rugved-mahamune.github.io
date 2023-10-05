@@ -72,9 +72,10 @@
                         document.getElementById('description').textContent = productJSON.description;
                         document.getElementById('price').textContent = productJSON.price;
                         document.getElementById('brand').textContent = productJSON.brand;
-                        document.getElementById('color').textContent = productJSON.brand;
-                        document.getElementById('return-policy').textContent = productJSON.brand;
-                        document.getElementById('material').textContent = productJSON.brand;
+                        document.getElementById('color').textContent = productJSON.color;
+                        document.getElementById('return-policy').textContent = productJSON.return_policy;
+                        document.getElementById('material').textContent = productJSON.material;
+                        document.getElementById('stock').textContent = productJSON.stock;
                         productJSON.sizes.forEach(optionText => {
                             const option = document.createElement("option");
                             option.text = optionText;
@@ -210,9 +211,6 @@
                       <div class="col-md-4 col-6">
                         <label class="mb-2">Size</label>
                         <select id="sizes" class="form-select border border-secondary" style="height: 35px;">
-                          <option>Small</option>
-                          <option>Medium</option>
-                          <option>Large</option>
                         </select>
                       </div>
                       <!-- col.// -->
